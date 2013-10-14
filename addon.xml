@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addon id="plugin.video.ron-paul-channel"
+    version="0.0.1"
+    name="Ron Paul Channel"
+    provider-name="h1YT0293hL874b9">
+  <requires>
+    <import addon="script.module.beautifulsoup" version="3.2.1" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Ron Paul Channel</summary>
+    <description lang="en">Turn off the TV and turn on the truth!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
